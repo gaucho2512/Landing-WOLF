@@ -1,0 +1,1100 @@
+$colortexto: white;
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 1500px;
+}
+nav {
+    width: 100%; 
+    height: 140px;
+    img {
+        width: 4%;
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+    }
+}
+header {
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    background-image: url(../image/fondo-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: $colortexto;
+        width: 900px;
+        margin: auto;
+    }
+}
+.logo-tarjeta {
+        position: absolute;
+        margin-left: 325px;
+        margin-top: 25px;
+}
+.logo-tarjeta-contacto {
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 25px;
+}
+.section-center {
+    height: 702px;
+    width: 100%;
+    div h2 {
+        margin-top: 150px;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+.title-con-fondo {
+        display: block;
+        margin: auto;
+        background-image: url(../image/border-section.png);
+        background-repeat: no-repeat;
+        background-size: 60% 90%;
+        background-position: center;
+        height: 66px;
+        padding-top: 5px;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+}
+  .parrafo-top {
+    font-size: 23px;
+    text-align: center;
+    width: 480px;
+    margin-left: 530px;
+    margin-top: 50px;
+}
+.title-top {
+        height: 66px;
+        padding-top: 5px;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        width: 470px;
+        margin-left: 530px;
+}
+.ejemplo {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.title-deuda {
+    background-image: url(../image/border-2.png);
+    display: block;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 50% 90%;
+    background-position: center;
+    height: 66px;
+    padding-top: 5px;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 18px;
+}
+.columns {
+    width: 60%;
+    height: 950px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 283px;
+    .columns-left {
+        width: 350px;
+        height: 900px;
+    }
+    .columns-right {
+        width: 350px;
+        height: 900px;
+        margin-left: -50px;
+     }
+     .parrafo-grilla {
+        font-size: 23px;
+        text-align: center; 
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+        .fondo-regalo  {
+        background-image: url(../image/border-regalo.png);
+        display: block;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: 60% 90%;
+        background-position: center;
+        height: 60px;
+        padding-top: 5px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 18px;
+        margin-top: 50px;
+    } 
+      .titulo-dinero {
+        background-image: url(../image/border-plata.png);
+        display: block;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: 60% 90%;
+        background-position: center;
+        height: 50px;
+        padding-top: 5px;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 18px;
+     }  
+     .columns-center {
+        width: 200px;
+        height: 900px;
+        .content-center {
+            width: 100%;
+            height: 900px;
+            display: block;
+            margin: auto;
+            background-image: url(../image/linea.png);
+            background-repeat: no-repeat;
+            background-size: 2% 100%;
+            background-position: center;
+        }
+     }
+}
+.circulo-top {
+    display: block;
+    margin: auto;
+    margin-bottom: 250px;
+    padding-top: 80px;
+    margin-left: 85px;
+    width: 16%;
+    
+}
+.circulo-center {
+    display: block;
+    margin: auto;
+    margin-bottom: 250px;
+    padding-top: 130px;
+    margin-left: 85px;
+    width: 16%;
+}
+.circulo-bottom {
+    display: block;
+    margin: auto;
+    margin-bottom: 250px;
+    padding-top: 130px;
+    margin-left: 85px;
+    width: 16%;
+}
+  .dibujo-uno {
+      width: 120px;
+      height: 120px;
+      background-image: url(../image/icon-circulo.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      background-size: 70% 70%;
+      margin-left: 92px;
+      margin-top: 50px;
+      margin-bottom: -21px;
+      
+    
+  }
+  .dibujo-dos {
+    width: 120px;
+    height: 120px;
+    background-image: url(../image/icon-circulo.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 70% 70%;
+    margin-bottom: -21px;
+}
+.logo-circulo-tarjeta {
+    width: 45%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.logo-circulo-regalo {
+    width: 36%;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-left: 21px;
+}
+
+.fin-grilla {
+    width: 100%;
+    height: 210px;
+    p {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        span {
+            font-size: 23px;
+            font-weight: normal;
+        }
+    }
+}
+.section-footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../image/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.logo-left {
+    width: 400px;
+    margin-top: 20px;
+    img {
+        margin-left: 145px;
+    }
+       .title-footer {
+        color: $colortexto;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+.form-right {
+    width: 600px;
+    height: 380px;
+    background-color: $colortexto;
+    border-radius: 20px;
+    form {
+        margin-top: 35px; 
+        a {
+            display: block;
+            margin: auto;
+            width: 200px;
+            height: 35px;
+            color: $colortexto;
+            background-color: #000000;
+            border-radius: 12px;
+            border: solid 1px #000000;
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
+form label {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+.div-container {
+    width: 100%;
+    height: 150px;
+   
+    display: flex;
+}
+.axess-footer {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    p {
+        font-size: 12px;
+    }
+}
+.contenedor {
+    width: 100%;
+    height: 960px;
+}
+.section-header {
+    width: 100%;
+    height: 600px;
+    padding-top: 20px;
+    background-image: url(../image/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: $colortexto;
+        width: 70%;
+        margin: auto;
+        margin-top: 150px;
+    }
+}
+
+
+/* Media Queries  375px  */
+
+  
+@media (max-width: 413.98px) {
+
+    .section-header h1 {
+        font-size: 32px;
+    }
+
+    .logo-tarjeta-contacto {
+        width: 100%;
+        top: 647px;
+        left: -55px;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    nav img {
+        width: 18%;
+    }
+
+    .logo-tarjeta {
+        width: 100%;
+        margin: 0;
+        left: -63px !important;
+        top: 300px !important;
+
+    }
+
+    header h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .section-center div h2 {
+        font-size: 32px;
+    }
+
+    .title-con-fondo {
+        font-size: 32px;
+        background-size: 98% 88%;
+        padding: 20px 0 30px;
+    }
+
+    .parrafo-top {
+        width: auto;
+        font-size: 18px;
+        margin-left: 0;
+        left: 0 !important;
+    }
+
+    .title-top {
+        font-size: 18px;
+        height: 0;
+        margin-left: 0;
+        left: -50px !important;
+    }
+
+    .title-deuda {
+        font-size: 32px;
+        background-size: 100% 50%;
+        padding: 44px 0 56px;
+    }
+
+    .columns {
+        height: auto;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .columns .columns-center {
+        display: none;
+    }
+
+    .columns .columns-right {
+        margin-left: 0 !important;
+        right: 0 !important;
+    }
+
+    .fin-grilla p {
+        font-size: 20px;
+    }
+
+    .section-footer {
+        flex-direction: column;
+        background-size: 100% 100%;
+        align-items: center;
+        justify-content: center;
+        height: 600px !important;
+    }
+
+    .logo-left .title-footer {
+        font-size: 28px;
+    }
+
+    .logo-left img {
+        width: 20%;
+        display: block;
+        margin: auto;
+    }
+
+    .form-right {
+        width: auto;
+        background-color: transparent ;
+    }
+
+    .input-top {
+        width: 355px !important;
+    }
+
+    .input-center {
+        width: 355px !important;
+    }
+
+    .input-bottom {
+        width: 355px !important;
+    }
+
+    form label {
+        margin-left: 0;
+    }
+
+    
+   
+}
+  
+
+/* Media Queries  414px  */
+
+@media (min-width: 414px) and (max-width: 575.98px) {  
+
+    .section-header h1 {
+        font-size: 32px;
+    }
+
+    .logo-tarjeta-contacto {
+        width: 100%;
+        top: 647px;
+        left: -55px;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    nav img {
+        width: 18%;
+    }
+
+    .logo-tarjeta {
+        width: 100%;
+        margin: 0;
+        left: -63px !important;
+        top: 300px !important;
+
+    }
+
+    header h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .section-center div h2 {
+        font-size: 32px;
+    }
+
+    .title-con-fondo {
+        font-size: 32px;
+        background-size: 98% 88%;
+        padding: 20px 0 30px;
+    }
+
+    .parrafo-top {
+        width: auto;
+        font-size: 18px;
+        margin-left: 0;
+        left: 0 !important;
+    }
+
+    .title-top {
+        font-size: 18px;
+        height: 0;
+        margin-left: 0;
+        left: -50px !important;
+    }
+
+    .title-deuda {
+        font-size: 32px;
+        background-size: 100% 50%;
+        padding: 44px 0 56px;
+    }
+
+    .columns {
+        height: auto;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .columns .columns-center {
+        display: none;
+    }
+
+    .columns .columns-right {
+        margin-left: 0 !important;
+        right: 0 !important;
+    }
+
+    .fin-grilla p {
+        font-size: 20px;
+    }
+
+    .section-footer {
+        flex-direction: column;
+        background-size: 100% 100%;
+        align-items: center;
+        justify-content: center;
+        height: 600px !important;
+    }
+
+    .logo-left .title-footer {
+        font-size: 28px;
+    }
+
+    .logo-left img {
+        width: 20%;
+        display: block;
+        margin: auto;
+    }
+
+    .form-right {
+        width: auto;
+        background-color: transparent ;
+    }
+
+    .input-top {
+        width: 355px !important;
+    }
+
+    .input-center {
+        width: 355px !important;
+    }
+
+    .input-bottom {
+        width: 355px !important;
+    }
+
+    form label {
+        margin-left: 0;
+    }
+
+    
+}
+  
+
+/* Media Queries  576px  */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .section-header h1 {
+        font-size: 32px;
+    }
+
+    .logo-tarjeta-contacto {
+        width: 100%;
+        top: 579px !important;
+        left: -112px !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    header {
+        height: 325px;
+    }
+
+    nav img {
+        width: 11%;
+    }
+
+    .logo-tarjeta {
+        width: 92%;
+        margin: 0;
+        left: -63px !important;
+        top: 300px !important;
+
+    }
+
+    header h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .section-center div h2 {
+        font-size: 32px;
+    }
+
+    .title-con-fondo {
+        font-size: 32px;
+        background-size: 98% 88%;
+        padding: 20px 0 0 0;
+    }
+
+    .ejemplo {
+         margin-top: 70px;
+         margin-bottom: 0px;
+    }
+
+    .parrafo-top {
+        width: auto;
+        font-size: 18px;
+        margin-left: 0;
+        left: 0 !important;
+    }
+
+    .title-top {
+        font-size: 18px;
+        height: 0;
+        margin-left: 0;
+        left: -50px !important;
+    }
+
+    .title-deuda {
+        font-size: 32px;
+        background-size: 100% 50%;
+        padding: 43px 0 21px;
+    }
+
+    .section-center {
+        height: 435px;
+    }
+
+    .columns {
+        height: auto;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .columns .columns-left {
+        position: relative;
+        left: 80px;
+    }
+
+    .columns .columns-center {
+        display: none;
+    }
+
+    .columns .columns-right {
+        margin-left: 0 !important;
+        right: 0 !important;
+        left: 84px;
+        top: -40px;
+    }
+
+    .fin-grilla p {
+        font-size: 20px;
+    }
+
+    .section-footer {
+        flex-direction: column;
+        background-size: 100% 100%;
+        align-items: center;
+        justify-content: center;
+        height: 600px !important;
+    }
+
+    .logo-left .title-footer {
+        font-size: 28px;
+    }
+
+    .logo-left img {
+        width: 20%;
+        display: block;
+        margin: auto;
+    }
+
+    .form-right {
+        width: auto;
+        background-color: transparent ;
+    }
+
+    .input-top {
+        width: 355px !important;
+    }
+
+    .input-center {
+        width: 355px !important;
+    }
+
+    .input-bottom {
+        width: 355px !important;
+    }
+
+    form label {
+        margin-left: 0;
+    }
+   
+}
+ 
+
+
+/* Media Queries  768px  */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .section-header {
+        height: 760px;
+    }
+
+    .logo-tarjeta-contacto {
+        margin-left: 0;
+        margin-top: 0;
+        width: 79%;
+        top: 752px;
+        
+    }
+
+    .div-container {
+        height: 470px;
+    }
+
+    header {
+        height: 380px;
+    }
+
+    nav img {
+        width: 8%;
+    }
+
+    .logo-tarjeta {
+        width: 85%;
+        margin: 0;
+        left: -50px !important;
+        top: 315px !important;
+        margin-left: 0;
+        margin-top: 0;
+
+    }
+
+    header h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .section-center div h2 {
+        font-size: 32px;
+    }
+
+    .title-con-fondo {
+        font-size: 32px;
+        background-size: 98% 88%;
+        padding: 10px 0 0px;
+    }
+
+    .ejemplo {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .parrafo-top {
+        width: auto;
+        font-size: 18px;
+        margin-left: 0;
+        left: 0 !important;
+    }
+
+    .title-top {
+        font-size: 18px;
+        height: 0;
+        margin-left: 0;
+        width: unset;
+        left: 0 !important;
+    }
+
+    .title-deuda {
+        font-size: 32px;
+        background-size: 100% 50%;
+        padding: 51px 0 28px;
+    }
+
+    .columns {
+        height: auto;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .columns .columns-left {
+        position: relative;
+        top: -200px;
+        left: 175px;
+    }
+
+    .columns .columns-center {
+        display: block;
+        top: -205px;
+        position: relative !important;
+        left: 140px !important;
+    }
+
+    .columns .columns-right {
+        margin-left: 0;
+        position: relative;
+        top: -200px;
+        left: 40px;
+    }
+
+    .fin-grilla {
+        margin-top: -230px;
+    }
+
+    .fin-grilla p {
+        font-size: 20px;
+    }
+
+    .section-footer {
+        flex-direction: column;
+        background-size: 100% 100%;
+        align-items: center;
+        justify-content: center;
+        height: 600px !important;
+    }
+
+    .contenido-central-1, .contenido-central-2, .contenido-central-3 {
+        position: relative;
+        left: -9px;
+    }
+
+    .logo-left .title-footer {
+        font-size: 28px;
+    }
+
+    .logo-left img {
+        width: 20%;
+        display: block;
+        margin: auto;
+    }
+
+    .form-right {
+        width: auto;
+        background-color: transparent ;
+    }
+
+    form label {
+        margin-left: 0;
+    }
+
+    .fin-grilla p {
+        margin-top: 50px;
+    }
+
+
+  
+}   
+
+
+
+/* Media Queries  992px  */
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .logo-tarjeta-contacto {
+        top: 620px;
+        left: 90px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    header {
+        height: 380px;
+    }
+
+    nav img {
+        width: 6%;
+    }
+
+    .logo-tarjeta {
+        width: 64%;
+        margin: 0;
+        left: 62px !important;
+        top: 315px !important;
+        margin-left: 0;
+        margin-top: 0;
+
+    }
+
+    header h1 {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .section-center div h2 {
+        font-size: 32px;
+    }
+
+    .title-con-fondo {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+
+    .ejemplo {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .parrafo-top {
+        width: auto;
+        font-size: 18px;
+        margin-left: 0;
+        left: 0 !important;
+    }
+
+    .title-top {
+        font-size: 18px;
+        height: 0;
+        margin-left: 0;
+        width: unset;
+        left: 0 !important;
+    }
+
+    .title-deuda {
+        font-size: 32px;
+        background-size: 59% 72%;;
+     
+    }
+
+    .columns {
+        height: auto;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .columns .columns-left {
+        position: relative;
+        top: -200px;
+        left: 215px;
+    }
+
+    .columns .columns-center {
+        display: block;
+        top: -205px;
+        position: relative !important;
+        left: 200px !important;
+    }
+
+    .columns .columns-right {
+        margin-left: 0;
+        position: relative;
+        top: -200px;
+        left: 120px;
+    }
+
+    .fin-grilla {
+        margin-top: -230px;
+    }
+
+    .fin-grilla p {
+        font-size: 20px;
+    }
+
+    .section-footer {
+        flex-direction: column;
+        background-size: 100% 100%;
+        align-items: center;
+        justify-content: center;
+        height: 655px !important;
+    }
+
+    .contenido-central-1, .contenido-central-2, .contenido-central-3 {
+        position: relative;
+        left: -9px;
+    }
+
+    .logo-left .title-footer {
+        font-size: 28px;
+    }
+
+    .logo-left img {
+        width: 20%;
+        display: block;
+        margin: auto;
+    }
+
+    .form-right {
+        width: auto;
+        background-color: transparent ;
+    }
+
+    form label {
+        margin-left: 0;
+    }
+
+    .fin-grilla p {
+        margin-top: 50px;
+    }
+
+}
+  
+
+
+/* Media Queries  1200px  */
+
+   @media screen and (max-width: 1200px) {
+
+    .logo-tarjeta-contacto {
+        margin-left: 0;
+        margin-top: 0;
+        left: 204px;
+        top: 585px;
+    }
+    
+    .logo-tarjeta {
+        top: 335px;
+        left: 170px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .parrafo-top {
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 370px;
+        top: 20px;
+    }
+
+    .title-top {
+        margin-left: 0;
+        position: relative;
+        left: 375px;
+
+    }
+
+    .columns .columns-center {
+        position: relative;
+        left: -35px;
+    }
+
+    .columns .columns-right {
+        margin-left: 0;
+        position: relative;
+        right: 130px;
+    }
+
+    .contenido-central-1, .contenido-central-2, .contenido-central-3 {
+        position: relative;
+        left: -9px;
+    }
+
+    .section-footer {
+        height: 400px;
+    }
+
+}  
+ 
+ 

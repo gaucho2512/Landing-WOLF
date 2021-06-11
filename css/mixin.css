@@ -1,0 +1,39 @@
+.input-top {
+  display: block;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 15px;
+  height: 40px;
+  border: solid 1px #E4E4E4;
+  border-radius: 12px;
+  background-color: #E4E4E4; }
+
+.input-center {
+  display: block;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 15px;
+  height: 40px;
+  border: solid 1px #E4E4E4;
+  border-radius: 12px;
+  background-color: #E4E4E4; }
+
+.input-bottom {
+  display: block;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 15px;
+  height: 40px;
+  border: solid 1px #E4E4E4;
+  border-radius: 12px;
+  background-color: #E4E4E4; }
+
+.contenido-uno, .contenido-dos, .contenido-tres, .contenido-final-1, .contenido-final-2, .contenido-final-3 {
+  width: 400px;
+  height: 250px; }
+
+.contenido-central-1, .contenido-central-2, .contenido-central-3 {
+  width: 180px;
+  height: 250px; }
+
+/*# sourceMappingURL=mixin.css.map */
